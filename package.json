@@ -1,1 +1,23 @@
-{}
+{
+  "name": "mafia_servertest",
+  "version": "1.0.0",
+  "description": "Server for a Unity application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hetetet/js_server_practice.git"
+  },
+  "author": "Hetetet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hetetet/js_server_practice/issues"
+  },
+  "homepage": "https://github.com/hetetet/js_server_practice#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
