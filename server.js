@@ -20,13 +20,14 @@ app.get("/user/:id",(req,res)=>{
 
     var dummyData={
         userid:req.params["id"],
-        username:"asshole",
+        username:"user",
         wins:1972,
         losses: 1121,
         array:[
             {name: "a",age: 100},
             {name: "b",age: 200},
-            {name: "c",age: 300}
+            {name: "c",age: 400},
+            {name: "d",age: 800}
         ]
     };
 
@@ -34,7 +35,6 @@ app.get("/user/:id",(req,res)=>{
 
     res.json(dummyData);
 });
-
 
 app.listen(8000, ()=>{
     console.log("Server has started!");
